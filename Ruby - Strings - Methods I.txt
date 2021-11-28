@@ -1,0 +1,3 @@
+def process_text (a)
+    a.map{|string| string.strip}.join(" ")
+end

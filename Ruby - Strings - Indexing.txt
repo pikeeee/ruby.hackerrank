@@ -1,0 +1,6 @@
+# Your code here
+def serial_average(a)
+    string = a.split('-')
+    y = (((string[1].to_f) + (string[2].to_f))/2).round(2)
+    return "#{string[0]}" + "-" + "#{y}"
+end

@@ -1,0 +1,5 @@
+# Enter your code here.
+def transcode (a)
+    a.force_encoding("UTF-8")
+   
+end

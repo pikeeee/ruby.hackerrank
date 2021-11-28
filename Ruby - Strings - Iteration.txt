@@ -1,0 +1,7 @@
+def count_multibyte_char(s)
+    char=0
+    s.each_char do |charc|
+        char+=1 if charc.bytesize > 1
+    end
+        return char
+end

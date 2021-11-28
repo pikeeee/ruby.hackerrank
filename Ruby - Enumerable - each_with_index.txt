@@ -1,0 +1,11 @@
+def skip_animals(animals, skip)
+  # Your code here
+    arr=[]
+    animals.each_with_index do |item,index|
+    if(index > skip -1)
+        item="#{index}:#{item}"
+        arr.push(item)
+    end
+end
+arr
+end
